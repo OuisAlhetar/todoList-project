@@ -1,0 +1,64 @@
+
+.button-icon{
+    transition: .3s ease all !important;
+}
+
+
+.button-icon:hover{
+    background-color: #c5c5c5 !important;
+}
+
+
+.todo{
+    transition: .3s ease all !important;
+}
+
+.todo:hover{
+    /* transform: scaleY(1.03) !important; */
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    border-radius: 0px !important;
+    /* border-radius: 15px !important; */
+    box-shadow: 0 5px 15px rgb(51, 51, 51) !important;
+}
+
+
+/* fonts */
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-ExtraLight.ttf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-Light.ttf");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-Regular.ttf");
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-SemiBold.ttf");
+    font-weight: 700;
+}
+
+
+@font-face {
+    font-family: ReadexPro;
+    src: url("../../public/Fonts/ReadexPro-Bold.ttf");
+    font-weight: 900;
+}
+

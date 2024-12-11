@@ -1,6 +1,21 @@
-import "@/styles/globals.css";
+// src/pages/_app.tsx
 import type { AppProps } from "next/app";
+import { BrowserRouter as Router } from "react-router-dom";
+import "../styles/globals.css";
+import "../styles/style.css";
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />;
+import ClientOnly from "@/components/ClientOnly";
+
+
+
+function MyApp({ Component, pageProps }: AppProps) {
+  return (
+    <ClientOnly>
+      <Router>
+        <Component {...pageProps} />
+      </Router>
+    </ClientOnly>
+  );
 }
+
+export default MyApp;
